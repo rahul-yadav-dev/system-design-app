@@ -28,7 +28,7 @@ export const systemDesignTopics: SystemDesignTopic[] = [
       'Scalability Requirements',
       'Monitoring and Observability'
     ],
-    diagram: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80'
+    diagram: 'https://miro.medium.com/v2/resize:fit:1200/1*isf-BNkQBSFoNDo_dx4MdA.jpeg'
   },
   {
     id: 'microservices',

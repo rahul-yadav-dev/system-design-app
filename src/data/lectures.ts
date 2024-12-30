@@ -77,42 +77,42 @@ class RequirementsManager {
     prevLectureId: 'intro',
     nextLectureId: 'components'
   },
-  {
-    id: 'singleton',
-    title: 'Singleton Pattern',
-    description: 'Implementation and use cases of the Singleton pattern',
-    difficulty: 'intermediate',
-    category: 'patterns',
-    content: `The Singleton pattern ensures a class has only one instance and provides a global point of access to it. Learn when and how to implement it in TypeScript.`,
-    codeExample: `// Thread-safe Singleton implementation in TypeScript
-class Database {
-  private static instance: Database | null = null;
-  private constructor() {
-    // Private constructor prevents direct construction
-    this.init();
-  }
+//   {
+//     id: 'singleton',
+//     title: 'Singleton Pattern',
+//     description: 'Implementation and use cases of the Singleton pattern',
+//     difficulty: 'intermediate',
+//     category: 'patterns',
+//     content: `The Singleton pattern ensures a class has only one instance and provides a global point of access to it. Learn when and how to implement it in TypeScript.`,
+//     codeExample: `// Thread-safe Singleton implementation in TypeScript
+// class Database {
+//   private static instance: Database | null = null;
+//   private constructor() {
+//     // Private constructor prevents direct construction
+//     this.init();
+//   }
 
-  private async init(): Promise<void> {
-    // Database initialization logic
-  }
+//   private async init(): Promise<void> {
+//     // Database initialization logic
+//   }
 
-  public static getInstance(): Database {
-    if (!Database.instance) {
-      Database.instance = new Database();
-    }
-    return Database.instance;
-  }
+//   public static getInstance(): Database {
+//     if (!Database.instance) {
+//       Database.instance = new Database();
+//     }
+//     return Database.instance;
+//   }
 
-  async query(sql: string): Promise<any> {
-    // Query implementation
-  }
-}
+//   async query(sql: string): Promise<any> {
+//     // Query implementation
+//   }
+// }
 
-// Usage
-const db1 = Database.getInstance();
-const db2 = Database.getInstance();
-console.log(db1 === db2); // true - same instance`,
-    prevLectureId: 'components',
-    nextLectureId: 'factory'
-  }
+// // Usage
+// const db1 = Database.getInstance();
+// const db2 = Database.getInstance();
+// console.log(db1 === db2); // true - same instance`,
+//     prevLectureId: 'components',
+//     nextLectureId: 'factory'
+//   }
 ];

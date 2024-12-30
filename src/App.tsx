@@ -43,7 +43,7 @@ function App() {
         return (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-1 space-y-4">
-              <h2 className="text-2xl font-bold mb-6">System Design Lectures</h2>
+              {/* <h2 className="text-2xl font-bold mb-6">System Design Lectures</h2> */}
               {lectures.map((lecture) => (
                 <LectureCard
                   key={lecture.id}
